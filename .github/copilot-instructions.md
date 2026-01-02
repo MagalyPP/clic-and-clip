@@ -153,12 +153,16 @@ When the user requests to update the products catalog, follow this workflow:
   - **title**: Extract from filename, capitalize properly, use Spanish
   - **description**: Brief description mentioning variants/specs from filenames, in Spanish
   - **price**: Set to `0` initially (user will update manually)
-  - **category**: The target category
-  - **images**: Array using `getImagePath('filename.png')` for each variant
-  - **inBanner** (optional): User decides which products to feature
+  - **category**: One of `'utiles' | 'navidad' | 'mouses-teclados' | 'audio' | 'cables' | 'almacenamiento'`
+  - **images**: Array of strings using `getImagePath('filename.png')` for each variant
+  - **inBanner** (optional): Boolean - user decides which products to feature
+  - **inStock** (optional): Boolean - marks product availability (default: true)
 
 **Step 6: Verify Completeness**
 - Cross-check that all image files from `public/images/products/` are included in the products array
+- Compare filenames in the folder with the image paths used in `products.ts`
+- Identify any **unused image files** that are not referenced in the products array
+- Create new product entries for unused images or ask user about them
 - Ensure no duplicate entries exist
 - Maintain existing products that already have real images
 
