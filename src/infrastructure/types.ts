@@ -15,12 +15,14 @@ export type ServiceKey =
   | 'agileEmpowerment'
   | 'trainingPrograms'
 
+export type Category = 'utiles' | 'navidad' | 'mouses-teclados' | 'audio' | 'cables' | 'almacenamiento' | 'otros'
+
 export type Product = {
   id: number;
   title: string;
   description: string;
   price: number;
-  category: 'utiles' | 'navidad' | 'mouses-teclados' | 'audio' | 'cables' | 'almacenamiento';
+  category: Category;
   images: string[];
   inBanner?: boolean;
   inStock?: boolean;

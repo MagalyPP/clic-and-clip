@@ -94,6 +94,11 @@ const toggleNav = () => {
                   {{ appTexts.navbar.navigation.storage }}
                 </RouterLink>
               </li>
+              <li>
+                <RouterLink class="dropdown-item" to="/products/otros" @click="isNavCollapsed = true">
+                  {{ appTexts.navbar.navigation.others }}
+                </RouterLink>
+              </li>
             </ul>
           </li>
         </ul>

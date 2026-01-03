@@ -12,6 +12,7 @@ export const appTexts: any = {
       audio: 'Audio',
       cables: 'Cables',
       storage: 'Almacenamiento',
+      others: 'Otros',
     },
     toggleNavigation: 'Alternar navegación',
   },
