@@ -12,11 +12,8 @@ const tabIconPath = `${import.meta.env.BASE_URL}tabIcon.ico`;
       <div class="row">
         <div class="col-lg-4 col-md-6 mb-4">
           <h5 class="company-name">{{ appTexts.footer.companyInfo.title }}</h5>
-          <p class="mb-3">
-            {{ appTexts.footer.companyInfo.description }}
-          </p>
           <div class="d-flex">
-            <a href="https://www.facebook.com/profile.php?id=61578497711864" class="text-light me-3" aria-label="Facebook">
+            <a href="https://www.facebook.com/" class="text-light me-3" aria-label="Facebook">
               <FontAwesomeIcon :icon="['fab', 'facebook-f']" />
             </a>
             <!-- <a href="#" class="text-light me-3" aria-label="Twitter">
@@ -25,7 +22,7 @@ const tabIconPath = `${import.meta.env.BASE_URL}tabIcon.ico`;
             <a href="#" class="text-light me-3" aria-label="LinkedIn">
               <FontAwesomeIcon :icon="['fab', 'linkedin-in']" />
             </a> -->
-            <a href="https://www.instagram.com/fennecsoft" class="text-light" aria-label="Instagram">
+            <a href="https://www.instagram.com/" class="text-light" aria-label="Instagram">
               <FontAwesomeIcon :icon="['fab', 'instagram']" />
             </a>
           </div>
@@ -33,47 +30,11 @@ const tabIconPath = `${import.meta.env.BASE_URL}tabIcon.ico`;
 
         <div class="col-lg-2 col-md-6 mb-4">
           <h6 class="text-uppercase fw-bold mb-3">{{ appTexts.footer.navigation.title }}</h6>
-          <ul class="list-unstyled">
-            <li class="mb-2">
-              <RouterLink to="/" class="text-light text-decoration-none">{{
-                appTexts.footer.navigation.links.home
-              }}</RouterLink>
-            </li>
-            <li class="mb-2">
-              <RouterLink to="/products" class="text-light text-decoration-none">{{
-                appTexts.footer.navigation.links.about
-              }}</RouterLink>
-            </li>
-            <li class="mb-2">
-              <RouterLink to="/products" class="text-light text-decoration-none">{{
-                appTexts.footer.navigation.links.services
-              }}</RouterLink>
-            </li>
-            <li class="mb-2">
-              <RouterLink to="/products" class="text-light text-decoration-none">{{
-                appTexts.footer.navigation.links.portfolio
-              }}</RouterLink>
-            </li>
-          </ul>
         </div>
 
         <div class="col-lg-3 col-md-6 mb-4">
           <h6 class="text-uppercase fw-bold mb-3">{{ appTexts.footer.services.title }}</h6>
-          <ul class="list-unstyled">
-            <li class="mb-2">
-              <RouterLink to="/products" class="text-light text-decoration-none">{{ appTexts.footer.services.links.webDevelopment }}</RouterLink>
-            </li>
-            <li class="mb-2">
-              <RouterLink to="/products" class="text-light text-decoration-none">{{ appTexts.footer.services.links.mobileApps }}</RouterLink>
-            </li>
-            <li class="mb-2">
-              <RouterLink to="/products" class="text-light text-decoration-none">{{ appTexts.footer.services.links.cloudSolutions }}</RouterLink>
-            </li>
-            <li class="mb-2">
-              <RouterLink to="/products" class="text-light text-decoration-none">{{ appTexts.footer.services.links.consulting }}</RouterLink>
-            </li>
-          </ul>
-        </div>
+                  </div>
 
         <div class="col-lg-3 col-md-6 mb-4">
           <h6 class="text-uppercase fw-bold mb-3">{{ appTexts.footer.contact.title }}</h6>
