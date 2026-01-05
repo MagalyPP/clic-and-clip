@@ -56,6 +56,9 @@ const nextImage = () => {
   background-color: #f9f9f9;
   border-bottom: 1px solid #e9ecef;
   overflow: hidden;
+  height: clamp(180px, 22vw, 260px);
+  padding: 8px;
+  box-sizing: border-box;
 }
 
 .image-display {
@@ -63,14 +66,14 @@ const nextImage = () => {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 200px;
   width: 100%;
+  height: 100%;
 }
 
 .carousel-image {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
   display: block;
 }
 

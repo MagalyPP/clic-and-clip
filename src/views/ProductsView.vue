@@ -10,13 +10,18 @@
 
       <div class="row mt-3">
         <div class="col-lg-4 ms-auto">
-          <input
-            type="search"
-            class="form-control"
-            v-model="searchTerm"
-            :placeholder="appTexts.products.searchPlaceholder"
-            aria-label="Buscar productos"
-          />
+          <div class="input-group mb-3 mb-lg-0">
+            <span class="input-group-text bg-white">
+              <FontAwesomeIcon icon="search" class="text-muted" />
+            </span>
+            <input
+              type="search"
+              class="form-control border-start-0"
+              v-model="searchTerm"
+              :aria-label="appTexts.products.searchAriaLabel"
+              :placeholder="appTexts.products.searchPlaceholder"
+            />
+          </div>
         </div>
       </div>
 
@@ -38,6 +43,7 @@
 <script setup lang="ts">
 import { computed, ref } from 'vue';
 import { useRoute } from 'vue-router';
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import ProductCard from '@/components/ProductCard.vue';
 import { products, getProductsByCategory } from '@/composables/data/products';
 import { appTexts } from '@/infrastructure/lang/spanish';
@@ -110,10 +116,6 @@ h1 {
 .lead {
   color: #666;
   font-size: 1.1rem;
-}
-
-.cards-row {
-  max-height: 200px;
 }
 
 @media (min-width: 992px) {

@@ -68,6 +68,7 @@ export const appTexts: any = {
   },
   products: {
     searchPlaceholder: 'Buscar productos...',
+    searchAriaLabel: 'Buscar productos',
     noResults: 'No hay productos disponibles en esta categoría.',
     outOfStock: 'Sin Stock',
   },
