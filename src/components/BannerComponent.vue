@@ -187,7 +187,7 @@ onBeforeUnmount(() => {
 
 @media (max-width: 768px) {
   .banner-card {
-    aspect-ratio: 1 / 1;
+    aspect-ratio: 15 / 9;
     min-height: 280px;
   }
 
@@ -200,7 +200,7 @@ onBeforeUnmount(() => {
   }
 
   .banner-content h2 {
-    font-size: 1rem;
+    font-size: small;
   }
 
   .banner-price {
