@@ -20,8 +20,8 @@
         </div>
       </div>
 
-      <div class="row mt-md-5">
-        <div class="col-lg-4 col-md-6 mb-4" v-for="product in filteredProducts" :key="product.id">
+      <div class="row mt-md-5 cards-row">
+        <div class="col-lg-3 col-md-4 mb-4" v-for="product in filteredProducts" :key="product.id">
           <ProductCard :product="product" />
         </div>
       </div>
@@ -111,6 +111,10 @@ h1 {
 .lead {
   color: #666;
   font-size: 1.1rem;
+}
+
+.cards-row {
+  max-height: 200px;
 }
 
 @media (min-width: 992px) {

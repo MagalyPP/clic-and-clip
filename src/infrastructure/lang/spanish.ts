@@ -27,9 +27,9 @@ export const appTexts: any = {
       },
     },
     callToActionSection: {
-      title: '¿Listo para Transformar Su Negocio?',
+      title: 'Descansa, nosotros nos encargamos.',
       description:
-        'Acelere su crecimiento con nuestras soluciones innovadoras. Hablemos sobre cómo podemos ayudarle a alcanzar sus objetivos de negocio.',
+        'En nuestra tienda de útiles escolares, simplificamos tu vida: realizamos la cotización por ti y te ofrecemos siempre el mejor precio. Tú solo eliges lo que necesitas, nosotros hacemos el resto.',
       buttons: {
         getStarted: 'Comenzar Hoy',
       },

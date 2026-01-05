@@ -13,7 +13,7 @@ import { appTexts } from '@/infrastructure/lang/spanish';
   <section class="cta-section py-5">
     <div class="container px-lg-5">
       <div class="row align-items-center">
-        <div class="col-lg-8">
+        <div class="col-lg-12">
           <h2 class="display-5 fw-bold mb-3">{{ appTexts.home.callToActionSection.title }}</h2>
           <p class="lead mb-4">
             {{ appTexts.home.callToActionSection.description }}

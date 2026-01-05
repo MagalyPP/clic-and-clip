@@ -13,7 +13,7 @@ const tabIconPath = `${import.meta.env.BASE_URL}tabIcon.ico`;
         <div class="col-lg-4 col-md-6 mb-4">
           <h5 class="company-name">{{ appTexts.footer.companyInfo.title }}</h5>
           <div class="d-flex">
-            <a href="https://www.facebook.com/profile.php?id=61578497711864" class="text-light me-3" aria-label="Facebook">
+            <a href="https://www.facebook.com/" class="text-light me-3" aria-label="Facebook">
               <FontAwesomeIcon :icon="['fab', 'facebook-f']" />
             </a>
             <!-- <a href="#" class="text-light me-3" aria-label="Twitter">
@@ -22,7 +22,7 @@ const tabIconPath = `${import.meta.env.BASE_URL}tabIcon.ico`;
             <a href="#" class="text-light me-3" aria-label="LinkedIn">
               <FontAwesomeIcon :icon="['fab', 'linkedin-in']" />
             </a> -->
-            <a href="https://www.instagram.com/fennecsoft" class="text-light" aria-label="Instagram">
+            <a href="https://www.instagram.com/" class="text-light" aria-label="Instagram">
               <FontAwesomeIcon :icon="['fab', 'instagram']" />
             </a>
           </div>
