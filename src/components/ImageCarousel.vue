@@ -84,6 +84,11 @@ watch(currentImage, () => {
 
 .image-display {
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
   transition: opacity 0.2s ease-in-out;
 }
 
