@@ -1106,7 +1106,11 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: true,
     inStock: true,
-    images: [getImagePath('universitario kuromi 100 hojas.jpg')],
+    images: [
+      getImagePath('universitario kuromi 100 hojas.jpg'),
+      getImagePath('kuromi 1.png'),
+      getImagePath('kuromi 2.png'),
+    ],
   },
   {
     id: 117,
@@ -1116,7 +1120,10 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: true,
     inStock: true,
-    images: [getImagePath('universitario spiderman 100 hojas.webp')],
+    images: [
+      getImagePath('universitario spiderman 100 hojas.webp'),
+      getImagePath('spiderman univeristario 1.png'),
+      getImagePath('spiderman universitario 2.png')],
   },
   {
     id: 118,
