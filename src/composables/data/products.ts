@@ -493,8 +493,8 @@ export const products: Product[] = [
   },
   {
     id: 46,
-    title: 'Cuaderno College Matemáticas 100 Hojas - Spider',
-    description: 'Cuaderno college 100 hojas con diseño Spider 7mm.',
+    title: 'Cuaderno College Matemáticas 80 Hojas - Spider',
+    description: 'Cuaderno college 80 hojas con diseño Spider 7mm.',
     price: 1390,
     category: 'utiles',
     inBanner: false,
