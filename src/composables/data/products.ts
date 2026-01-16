@@ -15,6 +15,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'arte',
     images: [getImagePath('ACUARELA MINI 15MM 15 COLORES + PINCEL DOMS.jpg')],
   },
   {
@@ -25,6 +26,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'pegamento',
     images: [getImagePath('ADHESIVO MULTIUSO 30CC 24 UNIDADES FULTONS.jpg')],
   },
   {
@@ -35,6 +37,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'arte',
     images: [getImagePath('BLOCK DE DIBUJO LICEO 60 ARTE TOP.png')],
   },
   {
@@ -45,6 +48,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'arte',
     images: [getImagePath('BLOCK DIBUJO DOBLE FAZ N°99 18 PROARTE.jpg')],
   },
   {
@@ -55,6 +59,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'cartulinas',
     images: [getImagePath('BLOCK PAPEL LUSTRE 16X16 24 HJS PROARTE.jpg')],
   },
   {
@@ -65,6 +70,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'lapiz-goma-sacapuntas',
     images: [
       getImagePath('BOLIGRAFO PUNTA 0.6MM 12 UNIDADES AZUL DOMS.png'),
       getImagePath('BOLIGRAFO PUNTA 0.6MM 12 UNIDADES NEGRO DOMS.png'),
@@ -80,6 +86,7 @@ export const products: Product[] = [
     category: 'navidad',
     inBanner: false,
     inStock: true,
+    subCategory: null,
     images: [getImagePath('Bolsa Navideña Tamaño Grande.jpg')],
   },
   {
@@ -90,6 +97,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'cartulinas',
     images: [getImagePath('CARPETA PAÑO LENCI 20X30 CMS 6 COLORES FULTONS.jpg')],
   },
 
@@ -102,6 +110,7 @@ export const products: Product[] = [
     category: 'navidad',
     inBanner: false,
     inStock: false,
+    subCategory: null,
     images: [
       getImagePath('PAPEL DE REGALO NAVIDEÑO 70X100CM 1 PLIEGO LIBESA ADORNOS.png'),
       getImagePath('PAPEL DE REGALO NAVIDEÑO 70X100CM 1 PLIEGO LIBESA BOTAS.jpg'),
@@ -117,6 +126,7 @@ export const products: Product[] = [
     category: 'navidad',
     inBanner: false,
     inStock: true,
+    subCategory: null,
     images: [
       getImagePath('ETIQUEAS NAVIDEÑAS AUTOADHESIVAS.jpg'),
     ],
@@ -130,6 +140,7 @@ export const products: Product[] = [
     category: 'navidad',
     inBanner: false,
     inStock: false,
+    subCategory: null,
     images: [
       getImagePath('CINTA MAGICA LISA DORADA 2,7X48CM.png'),
       getImagePath('CINTA MAGICA LISA PLATA 2,7X48CM.png'),
@@ -145,6 +156,7 @@ export const products: Product[] = [
     category: 'navidad',
     inBanner: false,
     inStock: true,
+    subCategory: null,
     images: [getImagePath('CINTA ADHESIVA ANCHA 12MMX30MTS NUOVO.png')],
   },
 
@@ -157,6 +169,7 @@ export const products: Product[] = [
     category: 'mouses-teclados',
     inBanner: false,
     inStock: true,
+    subCategory: null,
     images: [
       getImagePath('Mouse Inalambrico Tecmaster Negro.jpg'),
       getImagePath('Teclado Inalambrico Tecmaster Azul.jpg'),
@@ -170,6 +183,7 @@ export const products: Product[] = [
     category: 'mouses-teclados',
     inBanner: false,
     inStock: true,
+    subCategory: null,
     images: [getImagePath('Teclado Cableado Backlight.jpg')],
   },
   {
@@ -180,6 +194,7 @@ export const products: Product[] = [
     category: 'mouses-teclados',
     inBanner: false,
     inStock: true,
+    subCategory: null,
     images: [getImagePath('Teclado y Mouse Inalambrico.jpg')],
   },
 
@@ -193,6 +208,7 @@ export const products: Product[] = [
     category: 'audio',
     inBanner: false,
     inStock: true,
+    subCategory: null,
     images: [
       getImagePath('Audifonos EnergySystem Negro.jpg'),
       getImagePath('Audifonos EnergySystem Negro1.jpg'),
@@ -208,6 +224,7 @@ export const products: Product[] = [
     category: 'audio',
     inBanner: false,
     inStock: true,
+    subCategory: null,
     images: [getImagePath('Audifonos Trust.jpg')],
   },
   {
@@ -218,6 +235,7 @@ export const products: Product[] = [
     category: 'audio',
     inBanner: false,
     inStock: true,
+    subCategory: null,
     images: [getImagePath('Tecmaster mano libre blanco.png')],
   },
   {
@@ -228,6 +246,7 @@ export const products: Product[] = [
     category: 'audio',
     inBanner: false,
     inStock: true,
+    subCategory: null,
     images: [getImagePath('Web cam trust spotlight.jpeg')],
   },
 
@@ -240,6 +259,7 @@ export const products: Product[] = [
     category: 'cables',
     inBanner: false,
     inStock: true,
+    subCategory: null,
     images: [getImagePath('Cable tipo c.jpg')],
   },
   {
@@ -250,6 +270,7 @@ export const products: Product[] = [
     category: 'otros',
     inBanner: false,
     inStock: true,
+    subCategory: null,
     images: [getImagePath('Cargador de pared.jpg')],
   },
   {
@@ -260,6 +281,7 @@ export const products: Product[] = [
     category: 'otros',
     inBanner: false,
     inStock: true,
+    subCategory: null,
     images: [getImagePath('Pasta termica manhattan.jpg')],
   },
 
@@ -272,6 +294,7 @@ export const products: Product[] = [
     category: 'almacenamiento',
     inBanner: false,
     inStock: true,
+    subCategory: null,
     images: [getImagePath('Lexar memoria 32gb micro-sdhc.jpg')],
   },
   {
@@ -282,6 +305,7 @@ export const products: Product[] = [
     category: 'almacenamiento',
     inBanner: false,
     inStock: true,
+    subCategory: null,
     images: [getImagePath('Lexar memoria 64 GB microsdxc.jpeg')],
   },
   {
@@ -292,6 +316,7 @@ export const products: Product[] = [
     category: 'almacenamiento',
     inBanner: false,
     inStock: true,
+    subCategory: null,
     images: [getImagePath('Lexar pendrive 32 GB USB 2.0.jpg')],
   },
   {
@@ -302,6 +327,7 @@ export const products: Product[] = [
     category: 'almacenamiento',
     inBanner: false,
     inStock: true,
+    subCategory: null,
     images: [getImagePath('Lexar pendrive 64 GB USB 2.0.jpeg')],
   },
 
@@ -314,6 +340,7 @@ export const products: Product[] = [
     category: 'otros',
     inBanner: false,
     inStock: true,
+    subCategory: null,
     images: [getImagePath('Soporte Celular Bicicleta.jpg')],
   },
 
@@ -326,6 +353,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'manualidades',
     images: [getImagePath('BOMBITAS DE AGUA CON ADAPTADOR 100 UNIDADES BALLOONS.png')],
   },
   {
@@ -336,6 +364,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'lapiz-goma-sacapuntas',
     images: [getImagePath('CAJA GOMA DE BORRAR MIGA 36 UNIDADES FULTONS.jpg')],
   },
   {
@@ -346,6 +375,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'lapiz-goma-sacapuntas',
     images: [getImagePath('CAJA MINAS 0.5MM HB 24 UNIDADES FULTONS.jpg')],
   },
   {
@@ -356,6 +386,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'cuadernos',
     images: [getImagePath('caligrafia H 80 hojas.png')],
   },
   {
@@ -366,6 +397,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'cartulinas',
     images: [getImagePath('CARPETA CARTON PIEDRA 6 HOJAS ARTE TOP.png')],
   },
   {
@@ -376,6 +408,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'cartulinas',
     images: [getImagePath('CARPETA CARTULINA 14 HJS FULTONS.jpg')],
   },
   {
@@ -386,6 +419,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'carpetas',
     images: [
       getImagePath('CARPETA CARTULINA CON ELASTICO ROJA LAVORO.jpg'),
       getImagePath('CARPETA CARTULINA CON ELASTICO VERDE CLARO LAVORO.jpg'),
@@ -399,6 +433,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'cartulinas',
     images: [getImagePath('CARPETA CARTULINA ESPAÑOLA 10 HJS FULTONS.jpg')],
   },
   {
@@ -409,6 +444,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'cartulinas',
     images: [getImagePath('CARPETA CARTULINA FLUORESCENTE 6 HJS FULTONS.jpg')],
   },
   {
@@ -419,6 +455,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'cartulinas',
     images: [getImagePath('CARPETA CARTULINA METALICA 10 HJS FULTONS.jpg')],
   },
   {
@@ -429,6 +466,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'cartulinas',
     images: [getImagePath('CARPETA PAPEL CREPE 6 HOJAS ARTE TOP.jpg')],
   },
   {
@@ -439,6 +477,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'cartulinas',
     images: [getImagePath('CARPETA PAPEL ENTRETENIDO 9 HJS 18 DISEÑOS FULTONS.jpg')],
   },
   {
@@ -449,6 +488,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'cartulinas',
     images: [getImagePath('CARPETA PAPEL VOLANTIN 10 HOJAS ARTE TOP.png')],
   },
   {
@@ -459,6 +499,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'cintas-adhesivas',
     images: [getImagePath('CINTA DE EMBALAJE TRANSPARENTE 48MMX30MTS 6 UNIDADES FULTONS.jpg')],
   },
   {
@@ -469,6 +510,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'cintas-adhesivas',
     images: [getImagePath('CINTA DE ENMASCARAR ROJA 18MMX20MTS USATAPE.jpg')],
   },
   {
@@ -479,6 +521,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'cintas-adhesivas',
     images: [getImagePath('CINTA DOBLE CONTACTO 18MMX13.7MTS 1 UNIDAD LAVORO.png')],
   },
   {
@@ -489,6 +532,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'pegamento',
     images: [getImagePath('COLA FRIA 38 GRAMOS 12 UNIDADES PROARTE.png')],
   },
   {
@@ -499,6 +543,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: true,
     inStock: true,
+    subCategory: 'cuadernos',
     images: [
       getImagePath('college 100 hojas spider.png'),
       getImagePath('spider c 1.png'),
@@ -518,6 +563,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: true,
     inStock: true,
+    subCategory: 'cuadernos',
     images: [
       getImagePath('college hello kitty 100 hojas.jpg'),
       getImagePath('kitty 2.jpg'),
@@ -537,6 +583,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: true,
     inStock: true,
+    subCategory: 'cuadernos',
     images: [
       getImagePath('CUADERNO CINNAMOROLL CARTA (TRIPLE) 150 HOJAS 1 UNIDAD SURTIDO PROARTE1.jpg'),
       getImagePath('CUADERNO CINNAMOROLL CARTA (TRIPLE) 150 HOJAS 1 UNIDAD SURTIDO PROARTE2.jpg'),
@@ -550,6 +597,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: true,
     inStock: true,
+    subCategory: 'cuadernos',
     images: [getImagePath('college matematicas 80 hojas.jpg')],
   },
   {
@@ -560,6 +608,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'arte',
     images: [getImagePath('CROQUERA DOBLE FAZ ESPIRAL OFICIO 50 HOJAS ARTE TOP.png')],
   },
   {
@@ -570,6 +619,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'cuadernos',
     images: [getImagePath('CUADERNO MUSICA 12 PAUTA 10HJS PROARTE.jpg')],
   },
   {
@@ -580,6 +630,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: true,
     inStock: true,
+    subCategory: 'cuadernos',
     images: [
       getImagePath('universitario chillbara 100 hojas.png'),
       getImagePath('universitario capibarra 100 hojas.jpg'),
@@ -594,6 +645,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'reglas',
     images: [getImagePath('ESCUADRA 20CM 45° 1 UNIDAD FULTONS.jpg')],
   },
   {
@@ -604,6 +656,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'cartulinas',
     images: [getImagePath('ESTUCHE PAPEL DIAMANTE 6HJS PROARTE.jpg')],
   },
   {
@@ -614,6 +667,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'forros-fundas',
     images: [
       getImagePath('FORRO COLLEGE AMARILLO 10 UNIDADES ESPINOZA.jpg'),
       getImagePath('FORRO COLLEGE AZUL 10 UNIDADES ESPINOZA.jpg'),
@@ -634,6 +688,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'manualidades',
     images: [getImagePath('GOMA EVA 20X30CM COLORES SURTIDOS 10 UNIDADES ART & CRAFT.jpg')],
   },
   {
@@ -644,6 +699,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'manualidades',
     images: [getImagePath('GOMA EVA GLITTER 20X30CM 6 HOJAS COLORES SURTIDOS ART&CRAFT.jpg')],
   },
   {
@@ -654,6 +710,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'manualidades',
     images: [getImagePath('GREDA 1 KILO APROX.jpg')],
   },
   {
@@ -664,6 +721,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'lapiz-goma-sacapuntas',
     images: [getImagePath('LAPICES 12 COLORES JUMBO HEXAGONALES LAVORO.jpg')],
   },
   {
@@ -674,6 +732,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'lapiz-goma-sacapuntas',
     images: [getImagePath('LAPICES 12 COLORES LARGOS HEXAGONALES FULTONS.jpg')],
   },
   {
@@ -684,6 +743,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'lapiz-goma-sacapuntas',
     images: [getImagePath('LAPICES DE CERA 12 COLORES JUMBO FULTONS.jpg')],
   },
   {
@@ -694,6 +754,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'lapiz-goma-sacapuntas',
     images: [getImagePath('LAPICES GRAFITO JUMBO + SACAPUNTA TRIANGULAR 12 UNIDADES ARTE TOP.png')],
   },
   {
@@ -704,6 +765,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'lapiz-goma-sacapuntas',
     images: [getImagePath('LAPIZ BICOLOR HEXAGONAL DELGADO 12 UNIDADES SELLOSCHOOL.png')],
   },
   {
@@ -714,6 +776,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'lapiz-goma-sacapuntas',
     images: [getImagePath('LAPIZ CORRECTOR 7ML 12UN FULTONS.jpg')],
   },
   {
@@ -724,6 +787,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'lapiz-goma-sacapuntas',
     images: [getImagePath('LAPIZ GRAFITO N°2 HB REDONDO 12 UNIDADES FULTONS.jpg')],
   },
   {
@@ -734,6 +798,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'manualidades',
     images: [getImagePath('LIMPIA PIPAS SURTIDAS 30 UNIDADES APROX ART&CRAFT.webp')],
   },
   {
@@ -744,6 +809,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'plumones-destacadores',
     images: [getImagePath('MARCADOR PERMANENTE REDONDO NEGRO 12 UNIDADES FULTONS.jpg')],
   },
   {
@@ -754,6 +820,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'plumones-destacadores',
     images: [getImagePath('MARCADORES 6 COLORES ARTE TOP.png')],
   },
   {
@@ -764,6 +831,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'plumones-destacadores',
     images: [getImagePath('MARCADORES JUMBOS 12 COLORES ARTE TOP.jpg')],
   },
   {
@@ -774,6 +842,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'arte',
     images: [getImagePath('MEZCLADOR 4 DIVISIONES 1 UNIDAD FULTON.jpg')],
   },
   {
@@ -784,6 +853,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'otros',
     images: [getImagePath('NOTAS ADHESIVAS 76X76MM 5 COLORES 100 HOJAS NUOVO.jpg')],
   },
   {
@@ -794,6 +864,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'manualidades',
     images: [getImagePath('PALOS DE HELADO JUMBO COLORES SURTIDOS 50 UNIDADES FULTONS.jpg')],
   },
   {
@@ -804,6 +875,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'manualidades',
     images: [getImagePath('PALOS DE HELADO JUMBO NATURAL 50 UNIDADES APROX FULTONS.jpg')],
   },
   {
@@ -814,6 +886,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'manualidades',
     images: [getImagePath('PALOS DE HELADO MADERA 50 UNIDADES PROARTE.jpg')],
   },
   {
@@ -824,6 +897,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'manualidades',
     images: [getImagePath('PALOS DE HELADOS DE COLORES ARTE TOP.png')],
   },
   {
@@ -834,6 +908,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'manualidades',
     images: [getImagePath('PASTA PARA MODELAR BLANCA 500 GR ARTE TOP.jpg')],
   },
   {
@@ -844,6 +919,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'pegamento',
     images: [getImagePath('PEGAMENTO EN BARRA 21 GRAMOS 12 UNIDADES PROARTE.png')],
   },
   {
@@ -854,6 +930,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'arte',
     images: [getImagePath('PINCEL N°12 ESPATULADO 6 UNIDADES ART&CRAFT.jpg')],
   },
   {
@@ -864,6 +941,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'arte',
     images: [getImagePath('PINCEL N°2 ESPATULADO 12 UNIDADES ART&CRAFT.jpg')],
   },
   {
@@ -874,6 +952,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'arte',
     images: [getImagePath('PINCEL N°2 PELO CAMELLO 12 UNIDADES ART&CRAFT.jpg')],
   },
   {
@@ -884,6 +963,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'arte',
     images: [getImagePath('PINCEL N°4 PELO CAMELLO 12 UNIDADES ART&CRAFT.jpg')],
   },
   {
@@ -894,6 +974,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'manualidades',
     images: [getImagePath('PLASTICINA REDONDA 12 COLORES ARTE TOP.png')],
   },
   {
@@ -904,6 +985,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'manualidades',
     images: [getImagePath('PLUMAS BLANCAS 10 A 15CM 50 PIEZAS ART&CRAFT.jpg')],
   },
   {
@@ -914,6 +996,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'manualidades',
     images: [getImagePath('PLUMAS LARGAS 10-15 CMS 50 UNIDADES ART & CRAFT.jpg')],
   },
   {
@@ -924,6 +1007,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'plumones-destacadores',
     images: [
       getImagePath('PLUMON PIZARRA AZUL 12 UNIDADES FULTONS.jpg'),
       getImagePath('PLUMON PIZARRA NEGRO 12 UNIDADES FULTONS.jpg'),
@@ -938,6 +1022,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'plumones-destacadores',
     images: [getImagePath('PLUMON SCRIPTO 12 COLORES FULTONS.jpg')],
   },
   {
@@ -948,6 +1033,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'lapiz-goma-sacapuntas',
     images: [getImagePath('PORTAMINAS 0.5 NEGRO-AZUL 12 UNIDADES LAVORO.jpg')],
   },
   {
@@ -958,6 +1044,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'reglas',
     images: [getImagePath('REGLA PLASTICA 20CMS FULTONS.jpg')],
   },
   {
@@ -968,6 +1055,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'otros',
     images: [getImagePath('RESMA CARTA 75GRS PIX.jpg')],
   },
   {
@@ -978,6 +1066,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'otros',
     images: [getImagePath('RESMA OFICIO 500 HOJAS 1 UNIDAD 75 GRAMOS PIX.jpg')],
   },
   {
@@ -988,6 +1077,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'lapiz-goma-sacapuntas',
     images: [getImagePath('SACAPUNTA PLAST CDEP TRIANG 24 UN PROARTE.png')],
   },
   {
@@ -998,6 +1088,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'plumones-destacadores',
     images: [getImagePath('SET 12 DESTACADORES SQUARE NEON+PASTEL NUOVO.jpg')],
   },
   {
@@ -1008,6 +1099,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'manualidades',
     images: [getImagePath('SET 20 BOLSAS ESCARCHA ART & CRAFT.jpg')],
   },
   {
@@ -1018,6 +1110,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'manualidades',
     images: [getImagePath('SET 20 BOLSITAS LENTEJUELAS COLORES ART & CRAFT.jpg')],
   },
   {
@@ -1028,6 +1121,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'manualidades',
     images: [getImagePath('SET 20 BOLSITAS OJITOS LOCOS TAMAÑOS VARIOS KAMI.jpg')],
   },
   {
@@ -1038,6 +1132,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'reglas',
     images: [getImagePath('SET COMPAS PLASTICO 6 UNIDADES PROARTE.png')],
   },
   {
@@ -1048,6 +1143,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'cartulinas',
     images: [getImagePath('SET DE 10 FAJOS DE PAPEL LUSTRE 10X10CM 24 HOJAS ARTE TOP.png')],
   },
   {
@@ -1058,6 +1154,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'reglas',
     images: [getImagePath('SET GEOMETRÍA 20 CM PROARTE.jpg')],
   },
   {
@@ -1068,6 +1165,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'manualidades',
     images: [getImagePath('SET LANA 5 COLORES BASICOS 1 AGUJA PLAST ART & CRAFT.jpg')],
   },
   {
@@ -1078,6 +1176,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'manualidades',
     images: [getImagePath('SET SISTEMA SOLAR 10 PIEZAS ARTE TOP.png')],
   },
   {
@@ -1088,6 +1187,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'pegamento',
     images: [getImagePath('silicona en barra.jpg')],
   },
   {
@@ -1098,6 +1198,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'arte',
     images: [getImagePath('TEMPERA DE 12 COL 20ML + PINCEL ARTE TOP.jpg')],
   },
   {
@@ -1108,6 +1209,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'manualidades',
     images: [getImagePath('TIJERA ESCOLAR 13CMS BLISTER FULTONS.jpg')],
   },
   {
@@ -1118,6 +1220,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'reglas',
     images: [getImagePath('TRANSPORTADOR 360º 10CM BISELADO FULTONS.jpg')],
   },
   {
@@ -1128,6 +1231,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: true,
     inStock: true,
+    subCategory: 'cuadernos',
     images: [getImagePath('universitario hunter 100 hojas 2.png')],
   },
   {
@@ -1138,6 +1242,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: true,
     inStock: true,
+    subCategory: 'cuadernos',
     images: [
       getImagePath('universitario kuromi 100 hojas.jpg'),
       getImagePath('kuromi 1.png'),
@@ -1152,6 +1257,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: true,
     inStock: true,
+    subCategory: 'cuadernos',
     images: [
       getImagePath('universitario spiderman 100 hojas.webp'),
       getImagePath('spiderman univeristario 1.png'),
@@ -1165,6 +1271,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: true,
     inStock: true,
+    subCategory: 'cuadernos',
     images: [getImagePath('universitario tapa blanda 100 hojas.jpg')],
   },
   {
@@ -1176,6 +1283,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'forros-fundas',
     images: [
       getImagePath('FORRO UNIVERSITARIO AMARILLO 10 UNIDADES ESPINOZA.jpg'),
       getImagePath('FORRO UNIVERSITARIO AZUL 10 UNIDADES ESPINOZA.jpg'),
@@ -1196,6 +1304,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'cuadernos',
     images: [getImagePath('BLOCK MATEMATICA 7MM ANILLADO CARTA 80 HOJAS NUOVO.webp')],
   },
   {
@@ -1206,6 +1315,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'arte',
     images: [getImagePath('BLOCK MEDIO N 99 1-4 20HJS PROARTE.jpg')],
   },
   {
@@ -1216,6 +1326,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'arte',
     images: [getImagePath('BLOCK N°99 1-8 10 HOJAS ROSS.webp')],
   },
   {
@@ -1226,6 +1337,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'lapiz-goma-sacapuntas',
     images: [getImagePath('CAJA MINAS 0.7MM HB 24 UNIDADES FULTONS.jpg')],
   },
   {
@@ -1236,6 +1348,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'carpetas',
     images: [
       getImagePath('CARPETA OFICIO CON ACCO CLIP PLASTICO AZUL JRF.gif'),
       getImagePath('CARPETA OFICIO CON ACCO CLIP PLASTICO BLANCO 1 UNIDAD JRF.jpg'),
@@ -1253,6 +1366,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'cintas-adhesivas',
     images: [getImagePath('CINTA DE ENMASCARAR 18MMX40MTS 8 UNIDADES LAVORO.jpg')],
   },
   {
@@ -1263,6 +1377,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'cintas-adhesivas',
     images: [getImagePath('CINTA DE ENMASCARAR 36MMX40MTS 8 UNIDADES LAVORO.jpg')],
   },
   {
@@ -1273,6 +1388,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'manualidades',
     images: [getImagePath('CUCHILLO CARTONERO CHICO NARANJO 1 UNIDAD FULTONS.jpg')],
   },
   {
@@ -1283,6 +1399,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'otros',
     images: [getImagePath('BORRADOR DE PIZARRA MADERA FULTONS.jpg')],
   },
   {
@@ -1293,6 +1410,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'arte',
     images: [getImagePath('LAPICES PASTEL GRASOS 12 COLORES ART&CRAFT.jpg')],
   },
   {
@@ -1303,6 +1421,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'arte',
     images: [getImagePath('PINCEL N°8 ESPATULADO 12 UNIDADES ART&CRAFT.jpg')],
   },
   {
@@ -1313,6 +1432,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'arte',
     images: [getImagePath('PINCEL N°8 PELO CAMELLO 12 UNIDADES ART&CRAFT.jpg')],
   },
   {
@@ -1323,6 +1443,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'manualidades',
     images: [getImagePath('LANA OVILLO 25GRS 1 UNIDAD COLOR SURTIDO ART&CRAFT.jpg')],
   },
   {
@@ -1333,6 +1454,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'manualidades',
     images: [getImagePath('POMPON MIX ROJO VIERI.jpg')],
   },
   {
@@ -1343,6 +1465,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'manualidades',
     images: [getImagePath('PUSH PIN COLORES SURTIDOS 40 UNIDADES APROX ISOFIT.jpg')],
   },
   {
@@ -1353,6 +1476,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'lapiz-goma-sacapuntas',
     images: [getImagePath('SACAPUNTAS DOBLE 12 UNIDADES PAX.jpg')],
   },
   {
@@ -1363,6 +1487,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'manualidades',
     images: [getImagePath('SET 20 BOLSITAS CON MOSTACILLLAS ART&CRAFT.jpg')],
   },
   {
@@ -1373,6 +1498,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'arte',
     images: [getImagePath('TEMPERA SOLIDA 6 COLORES 10GRS ART&CRAFT.jpg')],
   },
   {
@@ -1383,6 +1509,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'arte',
     images: [getImagePath('VASO PLASTICO EMPAVONADO 250ML.jpg')],
   },
   {
@@ -1393,6 +1520,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'otros',
     images: [getImagePath('GUANTES EXAMEN DE VINILO CON POLVO TRANSPARENTE TALLA S ADICARE.jpg')],
   },
   {
@@ -1403,6 +1531,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'otros',
     images: [getImagePath('PIZARRA MAGNETICA 28X21.7 CMS PROARTE.webp')],
   },
   {
@@ -1413,6 +1542,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'arte',
     images: [getImagePath('PECHERA CHILD 4 A 5 AÑOS 1 UNIDAD ARTE TOP.png')],
   },
   {
@@ -1423,6 +1553,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'forros-fundas',
     images: [getImagePath('FORRO LIBRO PLASTICO TRANSPARENTE 10 UNIDADES ESPINOZA.jpg')],
   },
   {
@@ -1433,6 +1564,7 @@ export const products: Product[] = [
     category: 'utiles',
     inBanner: false,
     inStock: true,
+    subCategory: 'forros-fundas',
     images: [getImagePath('FUNDAS TRANSPARENTE OFICIO 100UN FULTONS.jpg')],
   },
 ];

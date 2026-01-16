@@ -17,6 +17,21 @@ export type ServiceKey =
 
 export type Category = 'utiles' | 'navidad' | 'mouses-teclados' | 'audio' | 'cables' | 'almacenamiento' | 'otros'
 
+export type SubCategory =
+  | 'lapiz-goma-sacapuntas'
+  | 'cuadernos'
+  | 'manualidades'
+  | 'arte'
+  | 'reglas'
+  | 'pegamento'
+  | 'cartulinas'
+  | 'plumones-destacadores'
+  | 'carpetas'
+  | 'otros'
+  | 'cintas-adhesivas'
+  | 'forros-fundas'
+  | null
+
 export type Product = {
   id: number;
   title: string;
@@ -26,4 +41,5 @@ export type Product = {
   images: string[];
   inBanner?: boolean;
   inStock?: boolean;
+  subCategory?: SubCategory;
 }

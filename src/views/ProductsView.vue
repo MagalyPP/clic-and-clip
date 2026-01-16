@@ -80,16 +80,49 @@ const categoryTitles: Record<string, { title: string; description: string }> = {
   },
 };
 
+const subCategoryTitles: Record<string, string> = {
+  'lapiz-goma-sacapuntas': 'Lápices, Gomas y Sacapuntas',
+  'cuadernos': 'Cuadernos',
+  'manualidades': 'Manualidades',
+  'arte': 'Arte',
+  'reglas': 'Reglas y Geometría',
+  'pegamento': 'Pegamento',
+  'cartulinas': 'Cartulinas',
+  'plumones-destacadores': 'Plumones y Destacadores',
+  'carpetas': 'Carpetas',
+  'otros': 'Otros',
+};
+
 const category = computed(() => (route.params.category as string) || 'all');
-const pageTitle = computed(() => categoryTitles[category.value]?.title || 'Productos');
-const pageDescription = computed(
-  () => categoryTitles[category.value]?.description || 'Explora nuestro catálogo de productos.',
-);
+const subCategory = computed(() => (route.params.subCategory as string | undefined) || undefined);
+
+const pageTitle = computed(() => {
+  if (subCategory.value && category.value === 'utiles') {
+    const catTitle = categoryTitles[category.value]?.title || 'Productos';
+    const subCatTitle = subCategoryTitles[subCategory.value] || subCategory.value;
+    return `${catTitle} - ${subCatTitle}`;
+  }
+  return categoryTitles[category.value]?.title || 'Productos';
+});
+
+const pageDescription = computed(() => {
+  if (subCategory.value && category.value === 'utiles') {
+    const subCatName = subCategoryTitles[subCategory.value]?.toLowerCase() ||
+      subCategory.value.replace('-', ' ');
+    return `Explora nuestro catálogo de ${subCatName}.`;
+  }
+  return categoryTitles[category.value]?.description || 'Explora nuestro catálogo de productos.';
+});
 
 const searchTerm = ref('');
 
 const filteredProducts = computed(() => {
-  const base = category.value === 'all' ? products : getProductsByCategory(category.value);
+  let base = category.value === 'all' ? products : getProductsByCategory(category.value);
+
+  if (subCategory.value) {
+    base = base.filter((p) => p.subCategory === subCategory.value);
+  }
+
   const term = searchTerm.value.trim().toLowerCase();
   if (!term) return base;
   return base.filter((p) => {

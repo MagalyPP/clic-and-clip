@@ -45,10 +45,136 @@ const toggleNav = () => {
               appTexts.navbar.navigation.home
             }}</RouterLink>
           </li>
-          <li class="nav-item">
-            <RouterLink class="nav-link" to="/products/utiles" @click="isNavCollapsed = true">{{
-              appTexts.navbar.navigation.schoolSupplies
-            }}</RouterLink>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              {{ appTexts.navbar.navigation.schoolSupplies }}
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <RouterLink
+                  class="dropdown-item"
+                  to="/products/utiles"
+                  @click="isNavCollapsed = true"
+                >
+                  Ver todos
+                </RouterLink>
+              </li>
+              <li><hr class="dropdown-divider" /></li>
+              <li>
+                <RouterLink
+                  class="dropdown-item"
+                  to="/products/utiles/lapiz-goma-sacapuntas"
+                  @click="isNavCollapsed = true"
+                >
+                  Lápices, Gomas y Sacapuntas
+                </RouterLink>
+              </li>
+              <li>
+                <RouterLink
+                  class="dropdown-item"
+                  to="/products/utiles/cuadernos"
+                  @click="isNavCollapsed = true"
+                >
+                  Cuadernos
+                </RouterLink>
+              </li>
+              <li>
+                <RouterLink
+                  class="dropdown-item"
+                  to="/products/utiles/carpetas"
+                  @click="isNavCollapsed = true"
+                >
+                  Carpetas
+                </RouterLink>
+              </li>
+              <li>
+                <RouterLink
+                  class="dropdown-item"
+                  to="/products/utiles/pegamento"
+                  @click="isNavCollapsed = true"
+                >
+                  Pegamento
+                </RouterLink>
+              </li>
+              <li>
+                <RouterLink
+                  class="dropdown-item"
+                  to="/products/utiles/cartulinas"
+                  @click="isNavCollapsed = true"
+                >
+                  Cartulinas
+                </RouterLink>
+              </li>
+              <li>
+                <RouterLink
+                  class="dropdown-item"
+                  to="/products/utiles/cintas-adhesivas"
+                  @click="isNavCollapsed = true"
+                >
+                  Cintas Adhesivas
+                </RouterLink>
+              </li>
+              <li>
+                <RouterLink
+                  class="dropdown-item"
+                  to="/products/utiles/forros-fundas"
+                  @click="isNavCollapsed = true"
+                >
+                  Forros y Fundas
+                </RouterLink>
+              </li>
+              <li>
+                <RouterLink
+                  class="dropdown-item"
+                  to="/products/utiles/arte"
+                  @click="isNavCollapsed = true"
+                >
+                  Arte
+                </RouterLink>
+              </li>
+              <li>
+                <RouterLink
+                  class="dropdown-item"
+                  to="/products/utiles/manualidades"
+                  @click="isNavCollapsed = true"
+                >
+                  Manualidades
+                </RouterLink>
+              </li>
+              <li>
+                <RouterLink
+                  class="dropdown-item"
+                  to="/products/utiles/plumones-destacadores"
+                  @click="isNavCollapsed = true"
+                >
+                  Plumones y Destacadores
+                </RouterLink>
+              </li>
+              <li>
+                <RouterLink
+                  class="dropdown-item"
+                  to="/products/utiles/reglas"
+                  @click="isNavCollapsed = true"
+                >
+                  Reglas y Geometría
+                </RouterLink>
+              </li>
+              <li>
+                <RouterLink
+                  class="dropdown-item"
+                  to="/products/utiles/otros"
+                  @click="isNavCollapsed = true"
+                >
+                  Otros
+                </RouterLink>
+              </li>
+            </ul>
           </li>
           <li class="nav-item">
             <RouterLink class="nav-link" to="/products/navidad" @click="isNavCollapsed = true">{{

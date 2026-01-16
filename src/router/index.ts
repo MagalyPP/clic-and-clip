@@ -20,6 +20,11 @@ const router = createRouter({
       name: 'productsByCategory',
       component: ProductsView,
     },
+    {
+      path: '/products/:category/:subCategory',
+      name: 'productsBySubCategory',
+      component: ProductsView,
+    },
   ],
   scrollBehavior(to, from, savedPosition) {
     if (savedPosition) {
