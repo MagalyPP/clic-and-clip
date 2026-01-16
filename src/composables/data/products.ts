@@ -497,7 +497,7 @@ export const products: Product[] = [
     description: 'Cuaderno college 80 hojas con diseño Spider 7mm.',
     price: 1290,
     category: 'utiles',
-    inBanner: false,
+    inBanner: true,
     inStock: true,
     images: [
       getImagePath('college 100 hojas spider.png'),
