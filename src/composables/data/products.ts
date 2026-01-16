@@ -530,6 +530,19 @@ export const products: Product[] = [
     ],
   },
   {
+    id: 144,
+    title: 'Cuaderno Cinnamoroll Carta Triple 150 Hojas',
+    description: 'Cuaderno Cinnamoroll carta triple con 150 hojas, diseños surtidos marca Proarte.',
+    price: 4490,
+    category: 'utiles',
+    inBanner: true,
+    inStock: true,
+    images: [
+      getImagePath('CUADERNO CINNAMOROLL CARTA (TRIPLE) 150 HOJAS 1 UNIDAD SURTIDO PROARTE1.jpg'),
+      getImagePath('CUADERNO CINNAMOROLL CARTA (TRIPLE) 150 HOJAS 1 UNIDAD SURTIDO PROARTE2.jpg'),
+    ],
+  },
+  {
     id: 48,
     title: 'Cuaderno College Matemáticas 80 Hojas',
     description: 'Cuaderno college para matemáticas con 80 hojas 7mm.',
@@ -1262,7 +1275,16 @@ export const products: Product[] = [
     inStock: true,
     images: [getImagePath('CUCHILLO CARTONERO CHICO NARANJO 1 UNIDAD FULTONS.jpg')],
   },
-
+  {
+    id: 129,
+    title: 'Borrador de Pizarra Madera',
+    description: 'Borrador para pizarra con mango de madera marca Fultons.',
+    price: 990,
+    category: 'utiles',
+    inBanner: false,
+    inStock: true,
+    images: [getImagePath('BORRADOR DE PIZARRA MADERA FULTONS.jpg')],
+  },
   {
     id: 130,
     title: 'Lápices Pastel Grasos 12 Colores',
@@ -1293,7 +1315,16 @@ export const products: Product[] = [
     inStock: true,
     images: [getImagePath('PINCEL N°8 PELO CAMELLO 12 UNIDADES ART&CRAFT.jpg')],
   },
-
+  {
+    id: 133,
+    title: 'Lana Ovillo 25grs Color Surtido',
+    description: 'Lana en ovillo de 25 gramos marca Art & Craft, colores surtidos para tejido y manualidades.',
+    price: 890,
+    category: 'utiles',
+    inBanner: false,
+    inStock: true,
+    images: [getImagePath('LANA OVILLO 25GRS 1 UNIDAD COLOR SURTIDO ART&CRAFT.jpg')],
+  },
   {
     id: 134,
     title: 'Pompón Mix Rojo',
@@ -1376,6 +1407,16 @@ export const products: Product[] = [
   },
   {
     id: 142,
+    title: 'Pechera Child 4 a 5 Años',
+    description: 'Pechera para niños de 4 a 5 años marca Arte Top, ideal para pintura y manualidades.',
+    price: 3590,
+    category: 'utiles',
+    inBanner: false,
+    inStock: true,
+    images: [getImagePath('PECHERA CHILD 4 A 5 AÑOS 1 UNIDAD ARTE TOP.png')],
+  },
+  {
+    id: 145,
     title: 'Forro Libro Plástico Transparente',
     description: 'Forro para libros plástico transparente marca Espinoza, 10 unidades.',
     price: 290,
@@ -1385,7 +1426,7 @@ export const products: Product[] = [
     images: [getImagePath('FORRO LIBRO PLASTICO TRANSPARENTE 10 UNIDADES ESPINOZA.jpg')],
   },
   {
-    id: 143,
+    id: 146,
     title: 'Fundas Transparente Oficio',
     description: 'Fundas transparentes para documentos tamaño oficio marca Fultons, 100 unidades.',
     price: 80,
